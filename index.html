@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SarapanPagiMasBro - Sarapan Khas Medan</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Material Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Google Material Symbols (Alternative) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo"> 
+      <span class="yellow">Sarapan</span><span class="gray">Pagi</span><span class="orange">Mas</span><span class="orange">Bro</span> 
+    </div>
+    <nav>
+      <a href="#" class="nav-link">Beranda</a>
+      <a href="#" class="nav-link">Layanan</a>
+      <a href="#" class="nav-link">Kontak</a>
+    </nav>
+    <div class="icons">
+      <div class="icon-wrapper search-wrapper" title="Cari makanan">
+        <span class="material-icons icon">search</span>
+      </div>
+      <div class="search-input-container" id="search-input-container">
+        <input type="text" id="search-input" placeholder="Cari makanan..." />
+        <button class="search-close" id="search-close">
+          <span class="material-icons">close</span>
+        </button>
+      </div>
+      <div class="icon-wrapper cart-wrapper" title="Keranjang belanja">
+        <span class="material-icons icon">shopping_cart</span>
+      </div>
+      <div class="icon-wrapper notification-wrapper" title="Notifikasi">
+        <span class="material-icons icon">notifications</span>
+      </div>
+      <button class="login-btn">Masuk</button>
+    </div>
+  </header>
+  
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Awali Dengan <span class="yellow">Sarapan Lezat Khas Medan</span> dan Temukan Cita Rasa Asli Nusantara</h1>
+      <p>Nikmati berbagai pilihan sarapan khas Medan, mulai dari lontong sayur hingga nasi gurih yang penuh cita rasa. Sajian lezat dengan harga terjangkau untuk menemani awal hari Anda.</p>
+      <div class="cta-buttons">
+        <button class="cta-primary" id="lihat-menu-btn">
+          <span class="material-icons">restaurant_menu</span>
+          Lihat Menu
+        </button>
+        <button class="cta-secondary">
+          <span class="material-icons">call</span>
+          Hubungi Kami
+        </button>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="assets/906042ac-d45a-46ce-86c7-9487806567a0_Go-Biz_20240906_112750-removebg-preview.png" alt="Lontong Sayur" />
+    </div>
+  </section>
+  
+  <section class="popular">
+    <h2>
+      <span class="material-icons section-icon">local_fire_department</span>
+      Makanan Populer <span class="material-icons section-icon">local_fire_department</span>
+    </h2>
+    <div class="food-grid">
+      <div class="food-card">
+        <div class="food-card-header">
+          <img src="assets/5171b5d976968f8a97045ab98076f909-removebg-preview.png" alt="Nasi Uduk Telur" />
+          <div class="rating">
+            <span class="material-icons star">star</span>
+            <span>4.8</span>
+          </div>
+        </div>
+        <h3>Nasi Uduk Telur</h3>
+        <p>Nasi uduk telur, terdiri dari nasi gurih yang dimasak dengan santan, disajikan dengan telur goreng, bawang goreng, dan pelengkap seperti mentimun serta sambal.</p>
+        <div class="card-footer">
+          <span class="price">Rp 17.500</span>
+          <button class="add-to-cart">
+            <span class="material-icons">add_shopping_cart</span>
+            Tambah
+          </button>
+        </div>
+      </div>
+      <div class="food-card">
+        <div class="food-card-header">
+          <img src="assets/906042ac-d45a-46ce-86c7-9487806567a0_Go-Biz_20240906_112750-removebg-preview.png" alt="Lontong Sayur Komplit" />
+          <div class="rating">
+            <span class="material-icons star">star</span>
+            <span>4.7</span>
+          </div>
+        </div>
+        <h3>Lontong Sayur Komplit</h3>
+        <p>Lontong lembut yang disajikan dengan kuah santan berbumbu, dilengkapi dengan sayur labu, telur rebus, sambal, dan taburan bawang goreng, memberikan cita rasa gurih dan pedas yang pas.</p>
+        <div class="card-footer">
+          <span class="price">Rp 17.500</span>
+          <button class="add-to-cart">
+            <span class="material-icons">add_shopping_cart</span>
+            Tambah
+          </button>
+        </div>
+      </div>
+      <div class="food-card">
+        <div class="food-card-header">
+          <img src="assets/resep-nasi-uduk-hijau-enak-dan-bergizi-7tZ7WjSrEe-removebg-preview.png" alt="Nasi Uduk Ayam Goreng" />
+          <div class="rating">
+            <span class="material-icons star">star</span>
+            <span>4.6</span>
+          </div>
+        </div>
+        <h3>Nasi Uduk Ayam Goreng</h3>
+        <p>Nasi uduk gurih dengan aroma santan wangi, disajikan bersama ayam goreng rempah khas Medan, sambal pedas yang nendang, taburan bawang goreng, dan potongan mentimun segar.</p>
+        <div class="card-footer">
+          <span class="price">Rp 20.500</span>
+          <button class="add-to-cart">
+            <span class="material-icons">add_shopping_cart</span>
+            Tambah
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="special-offer">
+    <h2>
+      <span class="material-icons section-icon">local_offer</span>
+      Penawaran Khusus
+    </h2>
+    <div class="offer-content">
+      <img src="assets/Ayam-Bakar-removebg-preview.png" alt="Ayam Bakar" />
+      <div class="offer-text">
+        <h3>Dapatkan <span class="yellow">Diskon 20%</span> Untuk Ayam Bakar</h3>
+        <p>Kami menawarkan diskon 20% untuk makanan ini, kami ingin Anda semua mencoba makanan Ayam Bakar yang memiliki rasa enak yang harus dicoba semua orang</p>
+        <div class="offer-features">
+          <div class="feature">
+            <span class="material-icons">timer</span>
+            <span>Pengiriman 30 menit</span>
+          </div>
+          <div class="feature">
+            <span class="material-icons">local_shipping</span>
+            <span>Gratis ongkir</span>
+          </div>
+          <div class="feature">
+            <span class="material-icons">verified</span>
+            <span>Kualitas terjamin</span>
+          </div>
+        </div>
+        <button class="order-now-btn">
+          <span class="material-icons">shopping_cart</span>
+          Pesan Sekarang
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>
+          <span class="material-icons">restaurant</span>
+          SarapanPagiMasBro
+        </h4>
+        <p>Nikmati pengalaman kuliner anda di Medan dengan cita rasa autentik dan pelayanan terpercaya.</p>
+      </div>
+      <div class="footer-section">
+        <h4>
+          <span class="material-icons">contact_phone</span>
+          Kontak Kami
+        </h4>
+        <div class="contact-item">
+          <span class="material-icons">phone</span>
+          <span>+62 856-943-445</span>
+        </div>
+        <div class="contact-item">
+          <span class="material-icons">email</span>
+          <span>info@sarapanpagimasbro.com</span>
+        </div>
+        <div class="contact-item">
+          <span class="material-icons">location_on</span>
+          <span>Medan, Indonesia</span>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>
+          <span class="material-icons">schedule</span>
+          Jam Buka
+        </h4>
+        <div class="schedule-item">
+          <span>Senin - Jumat: 06:00 - 22:00</span>
+        </div>
+        <div class="schedule-item">
+          <span>Sabtu - Minggu: 07:00 - 23:00</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <div class="modal" id="cart-modal" style="display: none;">
+    <div class="modal-content">
+      <h3 id="modal-item-name"></h3>
+      <p id="modal-item-price"></p>
+      <div class="modal-actions">
+        <button id="add-to-cart-confirm" onclick="addToCartAndCloseModal()">Tambah ke Keranjang</button>
+        <button id="order-now-confirm">Langsung Pesan</button>
+        <button id="cancel-modal">Batal</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
